@@ -1,0 +1,277 @@
+
+  background: #00eeff;
+  color: #000;
+  box-sh*{
+  margin: 0
+  padding: 0;
+  font-family:'Arial', sans-serif;
+  box-sizing: border-box;
+} 
+body {
+  background: #f5f8fab5;
+  
+  
+  
+}
+
+.img {
+  padding: 12px 24px;
+  background: transparent;
+  color: #00eeff;
+  border: 2px solid #00eeff;
+  border-radius: 50% 50%;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #00eeff, 0 0 10px #00eeff;
+  transition: all 0.3s ease;
+  
+  width: 300px;       /* Adjust size as needed */
+  height: 300px;
+  object-fit: cover;  /* Ensures the image fills the shape */
+  border-radius: 50%; /* Makes it perfectly round */
+}
+.img:hover{adow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff
+}
+
+header{
+  height:15vh ;
+}
+
+.img {
+  background: #00eeff;
+  color: #000;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff;
+  width: 50vh;
+}#img{
+  height:100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 20px;
+ 
+} .nav ul li  {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  padding: 20px;
+}
+a:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}
+#about{
+  display: flex;
+  justify-content: space-between;
+}#about img{
+  margin-left: 100px;
+}
+p{
+  margin: 100px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+  color: #fffffff3;
+  text-align: center;
+  padding: 2rem;
+}
+.intro-content{
+    display: flex;
+    
+    
+}
+.intro-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro-content .highlight {
+  color: #00bcd4;
+}
+
+.intro-content h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.intro-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  justify-content: justify;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #00bcd4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+#intro-text{
+    margin-left: 80px;
+
+}
+
+
+.skills-section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #34495e;
+}
+
+.skill {
+  margin-bottom: 1.5rem;
+}
+
+.skill span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.skill-bar {
+  background-color: #ecf0f1;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 30px;
+}
+
+.skill-fill {
+  background: linear-gradient(to right, #3498db, #2ecc71);
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 30px;
+  font-weight: bold;
+  border-radius: 30px 0 0 30px;
+  transition: width 1s ease-in-out;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .skills-section h2 {
+    font-size: 2rem;
+  }
+
+  .skill-fill {
+    font-size: 0.9rem;
+    padding-right: 5px;
+  }
+}
+.about-section {
+  padding: 60px 20px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  
+  
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  margin-left: 60px;
+}
+
+.profile-pic {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--accent-color-hover);
+}
+#about img {
+  margin-left: 100px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.contact-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.text {
+  width: 230px;
+  padding: 15px;  
+  border: 1px solid #cccccc72;
+  border-radius: 40px;
+}
+#contact {
+  background: #f5f7fa;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}#projects {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
