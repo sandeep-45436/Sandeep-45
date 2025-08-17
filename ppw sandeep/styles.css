@@ -191,7 +191,7 @@ h2 {
 }
 .about-section {
   padding: 60px 20px;
-  background-color: var(--bg-color);
+  background-color: red;
   color: var(--text-color);
 }
 
@@ -273,3 +273,4 @@ h2 {
   margin: 0 auto;
 
 }
+
