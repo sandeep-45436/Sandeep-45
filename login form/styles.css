@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(0, 89, 255);
+}
+.container{
+    height: 23rem;
+    width: 23rem;
+    border:2px solid rgb(0, 0, 0) ;
+     position: absolute;
+     top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%); 
+
+
+}
+h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.952)
+    
+}
+.login-details input {
+    
+    margin-left: 30px;
+    width: 70%;
+
+}
+input{
+    padding: 7px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+
+}
+.check-box-remember{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#forget{
+    margin-right: 19px;
+}
+p{
+    text-align: center;
+}
+.register-link a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
